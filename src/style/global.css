@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body{
+    /* background: linear-gradient(90deg,  #234E70,#FBF8BE ); */
+    
+    background: linear-gradient(to right, #234E70 0% , #234E70 50%, #FBF8BE 50%, #FBF8BE 100%);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#root{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
